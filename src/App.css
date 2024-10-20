@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.signupContainer {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.textFields {
+    border-color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.signupButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.profileContainer {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profileField {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.profileLabel{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.profileText{
+    font-size: large;
+    font-weight: 400;
+}
