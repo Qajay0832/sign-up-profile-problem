@@ -7,9 +7,9 @@ const Signup = () => {
   let userDetails = useSelector((state) => state.signupData.value);
   const dispatch = useDispatch();
   const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("aaaaaaaa");
-  const [password, setPassword] = useState("aaaaaaaa");
-  const [confirmPassword, setConfirmPassword] = useState("aaaaaaaa");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   const [successMsg, setSuccessMsg] = useState(false);
   const [errorMsg, setErrorMsg] = useState(false);
   const navigate = useNavigate();
